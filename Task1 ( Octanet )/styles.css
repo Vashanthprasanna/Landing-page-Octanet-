@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head {
+    background-color: black;
+    color: white;
+    height: 16mm;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h4 {
+    margin-right: auto;
+    margin-left: 12mm;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: red;
+}
+
+a {
+    padding: 6mm;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    border-radius: 3mm;
+    width: 2.5cm;
+    height: 6.5mm;
+    margin-right: 6mm;
+    background-color: yellow;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.bdy {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cont {
+    margin-top: 45mm;
+    margin-right: 2cm;
+    line-height: 8mm;
+    font-size: 110%;
+}
+
+img {
+    padding: 2cm;
+}
+
+p {
+    margin-left: 7mm;
+}
+
+.body {
+    background-color: aqua;
+    padding: 10mm;
+}
+
+.html {
+    display: flex;
+    margin: 0.5cm;
+}
+
+.html-cont {
+    margin: 1cm;
+    padding: 5mm;
+    line-height: 8mm;
+    font-size: 110%;
+}
+
+.html-btn {
+    border-radius: 3mm;
+    width: 7cm;
+    height: 10mm;
+    margin-left: 7cm;
+    background-color: yellow;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html-btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.css-cont {
+    margin: 2cm;
+    padding: 4mm;
+    line-height: 8mm;
+    font-size: 110%;
+}
+
+css-btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+footer {
+    padding: 5mm;
+    color: white;
+    background-color: black;
+}
